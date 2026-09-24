@@ -1,0 +1,18 @@
+# Protect Pipeline 1 Code Engine
+src/genai_pipeline/
+
+# Protect Security Module
+src/security/
+
+# Protect Prompt Templates
+src/prompt_templates/
+
+# Protect Test Suites & Mock Data
+tests/demo_runner.py
+tests/mock_data.py
+tests/test_genai_pipeline.py
+
+# Protect Configuration & Output Datasets
+demo_output_plan.json
+.vscode/
+.env.example

@@ -1,0 +1,67 @@
+SkillSprint_AI/
+│
+├── .gitignore                   # Exclude venv, .env, __pycache__, temp files
+├── .env.example                 # API keys template (GEMINI_API_KEY=...)
+├── README.md                    # Project overview, setup & execution instructions
+├── AI_USAGE.md                  # Detailed log of AI tool assistance (FARHAD)
+├── requirements.txt             # Python dependencies (Streamlit, Pydantic, Gemini API, etc.)
+├── LICENSE                      # MIT License
+│
+├── dataset/                     # FARHAD KA DOMAIN (Static Data & Matrices)
+│   ├── raw_documents/           # 20 Fictional PDFs and DOCX files
+│   │   ├── HR_Leave_Policy_v1.pdf
+│   │   ├── IT_Security_SOP_v2.docx
+│   │   └── ...
+│   ├── roles/                   # 10 Job Role JSON definitions
+│   │   └── roles_list.json
+│   ├── role_matrix.json         # Master Role-Requirement Matrix (150+ requirements)
+│   ├── conflict_cases.json      # 10 Conflict & Version Change cases
+│   └── adversarial_cases/       # 10 Prompt-injection document samples
+│
+├── src/                         # CORE APPLICATION CODEBASE
+│   ├── __init__.py
+│   │
+│   ├── document_processing/     # YAZDAN KA DOMAIN (Parsing & Chunking)
+│   │   ├── __init__.py
+│   │   ├── pdf_parser.py        # Extract text + page numbers using pdfplumber/PyPDF
+│   │   ├── docx_parser.py       # Extract text + section/paragraph refs
+│   │   └── chunker.py           # 500-token chunker with metadata tagging
+│   │
+│   ├── genai_pipeline/          # ANAS KA DOMAIN (Pipeline 1: GenAI Engine)
+│   │   ├── __init__.py
+│   │   ├── gemini_client.py     # Gemini API integration with exponential backoff & retry
+│   │   ├── schemas.py           # Pydantic schemas for strict JSON output enforcement
+│   │   └── prompt_templates.py  # Controlled & versioned prompt templates
+│   │
+│   ├── python_validation/       # YAZDAN KA DOMAIN (Pipeline 2: Rule Engine)
+│   │   ├── __init__.py
+│   │   ├── validator.py         # Ground-truth comparison engine (No LLM)
+│   │   ├── score_calculator.py  # Coverage Score & Traceability Score formulas
+│   │   ├── hallucination.py     # Detection for unmapped/unsupported generated claims
+│   │   └── precedence.py        # Policy precedence logic (Latest Policy > SOP > FAQ)
+│   │
+│   ├── security/                # FARHAD KA DOMAIN (Security Controls)
+│   │   ├── __init__.py
+│   │   └── sanitizer.py         # Prompt Injection & Adversarial Document Scanner
+│   │
+│   └── utils/                   # SHARED UTILITIES
+│       ├── __init__.py
+│       ├── logger.py            # Model, API, prompt version, & generation logging
+│       └── export_helpers.py    # Report generation (PDF/CSV/Excel export)
+│
+├── templates/                   # USMAN KA DOMAIN (UI Layouts / Components)
+│   └── components.py            # Custom UI components, badges, and grids
+│
+├── app.py                       # USMAN KA DOMAIN (Main Streamlit / Web App Entry Point)
+│
+├── tests/                       # AUTOMATED TEST SUITE (Shared)
+│   ├── test_parsing.py          # PDF/DOCX parsing tests
+│   ├── test_genai.py            # JSON schema & API tests
+│   ├── test_validation.py       # Pipeline 2 rule & math score tests
+│   └── test_security.py         # Prompt injection scanner tests
+│
+├── output_reports/              # Dynamic evaluation outputs, CSV logs, & metrics
+│   └── .gitkeep
+│
+└── temp_uploads/                # Temporary directory for uploaded files during runtime
+    └── .gitkeep

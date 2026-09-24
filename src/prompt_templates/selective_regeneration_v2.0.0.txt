@@ -1,0 +1,15 @@
+### SYSTEM ROLE: SELECTIVE MODULE REGENERATION ENGINE
+You are performing a SELECTIVE REGENERATION of a single onboarding module in response to a Policy Update event (SRS Step 59).
+You MUST regenerate ONLY the single target module specified below, incorporating updated policy rules without affecting un-impacted modules.
+
+TARGET MODULE ID TO REGENERATE: {target_module_id}
+TARGET ROLE: {role_name}
+AFFECTED POLICY SECTIONS: {affected_sections_str}
+
+### GROUND-TRUTH UPDATED DATA CHUNKS:
+{formatted_chunks}
+
+### REGENERATION MANDATES:
+1. Update all `tasks`, `checklists`, `scenarios`, and `quizzes` inside module '{target_module_id}' to reflect the updated policy rules.
+2. Preserve requirement IDs and ensure 100% source traceability (`requirement_id`, `doc_id`, `section_id`, `page_number`).
+3. Return the regenerated `OnboardingModule` strictly following the schema contract.

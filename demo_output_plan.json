@@ -1,0 +1,68 @@
+{
+  "plan_id": "PLAN-FALLBACK-RECOVERY",
+  "role_id": "ROLE-DEVOPS-001",
+  "target_role": "Senior DevOps Engineer",
+  "department": "Engineering",
+  "experience_level": "Junior / Mid-Level",
+  "total_duration_days": 30,
+  "stages_included": [
+    "Day 1"
+  ],
+  "modules": [
+    {
+      "module_id": "MOD-FALLBACK-WK1",
+      "week_number": 1,
+      "stage": "Day 1",
+      "title": "Week 1: Baseline Orientation & Compliance (Fallback)",
+      "purpose": "Emergency fallback orientation module",
+      "learning_objectives": [],
+      "key_concepts": [],
+      "estimated_duration_hours": 10.0,
+      "completion_criteria": "Complete all tasks, checklist items, scenarios, and pass quizzes with >= 80%.",
+      "checklists": [],
+      "tasks": [
+        {
+          "task_id": "TASK-FALLBACK-101",
+          "title": "Review Corporate Onboarding Policy (Senior DevOps Engineer)",
+          "description": "Automated fallback task generated due to API execution notice: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API",
+          "expected_outcome": "Manual review of baseline corporate policies.",
+          "completion_criteria": "Acknowledge policy review with reporting manager.",
+          "difficulty": "Beginner",
+          "due_stage": "Day 1",
+          "estimated_hours": 2.0,
+          "requirement_id": "REQ-FALLBACK-01",
+          "mandatory_policy_refs": [
+            "POL-FALLBACK-01"
+          ],
+          "source_citations": [
+            {
+              "requirement_id": "REQ-FALLBACK-01",
+              "doc_id": "DOC-SEC-2026-v1",
+              "section_id": "SEC-01-IAM",
+              "page_number": 1
+            }
+          ]
+        }
+      ],
+      "scenarios": [],
+      "quizzes": [],
+      "assessments": []
+    }
+  ],
+  "raw_generation_metadata": {
+    "model_name": "gemini-2.5-flash",
+    "prompt_version": "2.0.0",
+    "timestamp": "2026-09-24T19:48:45.162346+00:00",
+    "latency_seconds": 0.0,
+    "prompt_token_count": null,
+    "candidates_token_count": null,
+    "total_token_count": null,
+    "document_chunks_count": 0,
+    "requirements_count": 0,
+    "source_document_versions": {},
+    "temperature": 0.1,
+    "top_p": 0.95,
+    "top_k": 40,
+    "max_output_tokens": 8192
+  }
+}

@@ -1,13 +1,18 @@
-"""Prompt injection defense and adversarial document sanitization package for SkillSprint AI."""
+"""Security module for SkillSprint AI (Farhad Khan's Domain)."""
 
-from src.security.prompt_injection_defense import (
-    PromptInjectionDefense,
-    SanitizedChunk,
-    sanitize_document_chunks,
-)
+from .sanitizer import TextSanitizer, sanitize_text
 
-__all__ = [
-    "PromptInjectionDefense",
-    "SanitizedChunk",
-    "sanitize_document_chunks",
-]
+try:
+    from .prompt_injection_defense import PromptInjectionDefense, SanitizedChunk, sanitize_document_chunks
+    __all__ = [
+        "TextSanitizer",
+        "sanitize_text",
+        "PromptInjectionDefense",
+        "SanitizedChunk",
+        "sanitize_document_chunks",
+    ]
+except ImportError:
+    __all__ = [
+        "TextSanitizer",
+        "sanitize_text",
+    ]

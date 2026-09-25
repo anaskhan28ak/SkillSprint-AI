@@ -1,0 +1,14 @@
+APEX GLOBAL SOLUTIONS
+SOP DOCUMENT: SOP-DEV-02
+TITLE: Cloud Production Deployment & Automated Rollback SOP
+VERSION: 1.0
+EFFECTIVE DATE: January 1, 2024
+CLASSIFICATION: Confidential - DevOps & Platform Engineering
+
+1. DEPLOYMENT ARCHITECTURE
+1.1 Zero-Downtime Blue-Green: All production releases must execute via automated Kubernetes Blue-Green or progressive Canary deployment pipelines. Direct in-place server updates are prohibited.
+
+2. AUTOMATED ROLLBACK GATES
+2.1 Error Rate Metric: Real-time Prometheus/Datadog monitoring evaluates HTTP 5xx error rates across the Canary/Green environment for 15 minutes post-traffic shift.
+2.2 Rollback Trigger: If the HTTP 5xx error rate exceeds 2.0% of total request volume over any 5-minute rolling window, the deployment automation must trigger an immediate, automated zero-downtime rollback to the stable Blue environment.
+2.3 Post-Mortem Requirement: Any deployment rollback mandates an internal blameless post-mortem published within 48 hours.

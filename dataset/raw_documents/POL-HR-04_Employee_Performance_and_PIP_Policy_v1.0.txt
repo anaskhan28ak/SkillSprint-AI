@@ -1,0 +1,18 @@
+APEX GLOBAL SOLUTIONS
+POLICY DOCUMENT: POL-HR-04
+TITLE: Employee Performance Management & Improvement Policy
+VERSION: 1.0
+EFFECTIVE DATE: January 1, 2024
+CLASSIFICATION: Internal - All Departments
+
+1. PURPOSE
+This policy governs the continuous performance evaluation cycle, Objective & Key Result (OKR) reviews, and formal remedial procedures for underperformance.
+
+2. PERFORMANCE REVIEW CADENCE
+2.1 Evaluations occur on a quarterly cadence (Q1, Q2, Q3, Q4) with a comprehensive annual performance appraisal.
+2.2 Employees are scored on a standardized 1.0 to 5.0 rating scale across Technical Execution, Collaboration, and Core Values.
+
+3. PERFORMANCE IMPROVEMENT PLAN (PIP) CRITERIA
+3.1 A formal 60-day Performance Improvement Plan (PIP) is mandatory for any employee who receives an overall performance rating below 2.5 out of 5.0 across two consecutive quarterly cycles.
+3.2 PIP Requirements: The People Partner and direct People Manager must establish clear, measurable weekly milestones.
+3.3 Outcomes: If the employee successfully meets all milestone benchmarks within 60 days, they return to standard standing. Failure to achieve a minimum 2.5 rating at the conclusion of the 60-day PIP will result in employment termination.

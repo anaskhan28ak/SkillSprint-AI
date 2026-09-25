@@ -1,0 +1,92 @@
+[
+  {
+    "case_id": "CONF-01",
+    "conflict_type": "Doc_Hierarchy_Conflict",
+    "primary_doc_id": "POL-HR-03",
+    "conflicting_doc_id": "FAQ-HR-01",
+    "rule_topic": "Annual Leave Carryover Limit",
+    "expected_ground_truth_rule": "Maximum 5 days of unused annual leave can be carried over into the following calendar year; any excess days expire on December 31st.",
+    "resolution_reasoning": "Formal Policy documents (POL-HR-03 v1.2) legally supersede informal departmental FAQ documents (FAQ-HR-01 v1.0). Hierarchy rule: Policy > SOP > FAQ."
+  },
+  {
+    "case_id": "CONF-02",
+    "conflict_type": "Version_Update_Override",
+    "primary_doc_id": "POL-HR-02",
+    "conflicting_doc_id": "POL-HR-02",
+    "rule_topic": "Remote Work Core Hours and Equipment Stipend",
+    "expected_ground_truth_rule": "Core remote collaboration hours are 10:00 AM to 4:00 PM PKT, and new hires are eligible for a one-time $300 home-office equipment stipend.",
+    "resolution_reasoning": "POL-HR-02 v2.0 explicitly replaces v1.0 (which specified 9:00 AM - 6:00 PM PKT and a $200 stipend). Versioning rule: Higher version number supersedes older versions."
+  },
+  {
+    "case_id": "CONF-03",
+    "conflict_type": "Version_Update_Override",
+    "primary_doc_id": "POL-SEC-01",
+    "conflicting_doc_id": "POL-SEC-01",
+    "rule_topic": "MFA Hardware Token & Password Complexity",
+    "expected_ground_truth_rule": "Mandatory hardware-based MFA (FIDO2 / YubiKey) and 14-character minimum passphrase required; SMS OTP authentication is strictly prohibited.",
+    "resolution_reasoning": "POL-SEC-01 v2.1 supersedes v1.0 (which permitted 10-character passwords and SMS OTP). Versioning rule: Stricter newer security baseline v2.1 takes precedence."
+  },
+  {
+    "case_id": "CONF-04",
+    "conflict_type": "Version_Update_Override",
+    "primary_doc_id": "SOP-SUP-01",
+    "conflicting_doc_id": "SOP-SUP-01",
+    "rule_topic": "Severity 1 Critical Outage Escalation Threshold",
+    "expected_ground_truth_rule": "Unacknowledged Severity 1 customer support tickets must be escalated to the On-Call Incident Commander within 15 minutes.",
+    "resolution_reasoning": "SOP-SUP-01 v2.0 overrides v1.0 (which had a 30-minute escalation threshold) to meet enterprise SLA commitments. Versioning rule: v2.0 supersedes v1.0."
+  },
+  {
+    "case_id": "CONF-05",
+    "conflict_type": "Version_Update_Override",
+    "primary_doc_id": "POL-SEC-03",
+    "conflicting_doc_id": "POL-SEC-03",
+    "rule_topic": "Security Incident and Data Breach Notification SLA",
+    "expected_ground_truth_rule": "All confirmed security breaches and PII exfiltrations must be reported to the CISO and Data Protection Officer within 24 hours.",
+    "resolution_reasoning": "POL-SEC-03 v1.1 reduced the permissible breach notification window from 72 hours (in v1.0) to 24 hours due to statutory compliance mandates."
+  },
+  {
+    "case_id": "CONF-06",
+    "conflict_type": "Version_Update_Override",
+    "primary_doc_id": "SOP-DEV-01",
+    "conflicting_doc_id": "SOP-DEV-01",
+    "rule_topic": "Pull Request Code Review Approvals",
+    "expected_ground_truth_rule": "Every production-bound pull request requires at least 2 independent peer approvals and passing SAST/DAST security scanner gates.",
+    "resolution_reasoning": "SOP-DEV-01 v2.0 enforces 2 peer reviews to satisfy SOC 2 Type II segregation of duties, superseding v1.0's single-reviewer standard."
+  },
+  {
+    "case_id": "CONF-07",
+    "conflict_type": "Doc_Hierarchy_Conflict",
+    "primary_doc_id": "POL-SEC-05",
+    "conflicting_doc_id": "FAQ-SEC-01",
+    "rule_topic": "Cryptographic Key and Secret Rotation Cadence",
+    "expected_ground_truth_rule": "Database credentials, API tokens, and TLS certificates must be automatically rotated every 90 days via HashiCorp Vault.",
+    "resolution_reasoning": "Standard Operating Procedure (POL-SEC-05 v2.0) takes precedence over outdated portal FAQ documentation (FAQ-SEC-01 v1.0) which suggested annual manual rotations."
+  },
+  {
+    "case_id": "CONF-08",
+    "conflict_type": "Doc_Hierarchy_Conflict",
+    "primary_doc_id": "SOP-SUP-02",
+    "conflicting_doc_id": "SOP-FIN-01",
+    "rule_topic": "Customer Dispute Refund Approval Limit for Support Tier 2",
+    "expected_ground_truth_rule": "Level 2 Customer Support Representatives are authorized to approve customer billing refunds up to a maximum cap of $500 per incident.",
+    "resolution_reasoning": "Domain-specific customer support SOP (SOP-SUP-02 v1.1) governs customer refund authority, overriding general corporate expenditure guidelines in SOP-FIN-01 v1.0."
+  },
+  {
+    "case_id": "CONF-09",
+    "conflict_type": "Version_Update_Override",
+    "primary_doc_id": "POL-SEC-01",
+    "conflicting_doc_id": "POL-SEC-04",
+    "rule_topic": "Physical Clean Desk vs Digital Endpoint Locking",
+    "expected_ground_truth_rule": "POL-SEC-04 Clean Desk Policy is marked OBSOLETE; digital workstation auto-lock after 5 minutes of inactivity (per POL-SEC-01 v2.1) governs compliance.",
+    "resolution_reasoning": "POL-SEC-04 v1.0 was formally retired and archived. Modern hybrid/remote endpoint security controls in POL-SEC-01 v2.1 prevail."
+  },
+  {
+    "case_id": "CONF-10",
+    "conflict_type": "Doc_Hierarchy_Conflict",
+    "primary_doc_id": "SOP-FIN-01",
+    "conflicting_doc_id": "POL-HR-01",
+    "rule_topic": "Daily Travel Meal Per Diem and Expense Thresholds",
+    "expected_ground_truth_rule": "Daily business travel meal allowance is capped at $75 per diem, and any expense item exceeding $1,000 requires explicit Department Manager pre-approval.",
+    "resolution_reasoning": "Operational Finance SOP (SOP-FIN-01 v1.0) specifies exact binding reimbursement caps and workflows, superseding high-level general conduct statements in POL-HR-01 v1.0."
+  }
+]

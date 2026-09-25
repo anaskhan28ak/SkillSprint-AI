@@ -1,0 +1,13 @@
+APEX GLOBAL SOLUTIONS
+SOP DOCUMENT: SOP-OPS-02
+TITLE: Employee Offboarding & Hardware Asset Recovery SOP
+VERSION: 1.0
+EFFECTIVE DATE: January 1, 2024
+CLASSIFICATION: Confidential - HR, IT & Operations
+
+1. SYSTEM ACCESS REVOCATION
+1.1 Immediate SSO De-provisioning: Upon receipt of formal employee separation notice or immediate termination notice, IT SecOps must execute automated Okta/Google SSO account revocation within exactly 15 minutes.
+
+2. HARDWARE RECOVERY PROTOCOL
+2.1 48-Hour Return Window: Departing employees must return all company-issued laptops, YubiKeys, monitors, and corporate assets to the IT Operations department within 48 hours of their final working day.
+2.2 Remote Return Kits: Prepaid secure courier boxes are dispatched to remote personnel on their final week. Unreturned equipment is subject to legal recovery.

@@ -1,0 +1,19 @@
+APEX GLOBAL SOLUTIONS
+POLICY DOCUMENT: POL-SEC-01
+TITLE: Information Security and Access Management Policy
+VERSION: 2.1 (SUPERSEDES VERSION 1.0)
+EFFECTIVE DATE: April 10, 2024
+CLASSIFICATION: Confidential - Mandatory for All Systems & Personnel
+
+1. PURPOSE & PRINCIPLES
+Apex enforces a Zero-Trust architecture to safeguard corporate systems, confidential repositories, and customer data assets against cyber threats.
+
+2. AUTHENTICATION STANDARDS & PASSWORD COMPLEXITY
+2.1 Multi-Factor Authentication (MFA): Mandatory hardware-based MFA (FIDO2 / YubiKey physical security keys or enterprise WebAuthn authenticators) is required for accessing all corporate SSO systems, VPNs, cloud consoles (AWS/GCP), and internal tools.
+2.2 Deprecated Authentication Methods: Legacy SMS-based OTP and unauthenticated email codes are strictly prohibited and disabled at the identity provider tier.
+2.3 Password Complexity: Master passphrases must contain a minimum of 14 characters, including at least one uppercase letter, one lowercase letter, one number, and one non-alphanumeric symbol. Passwords must not be reused across the last 12 historical cycles.
+2.4 Version Update Note: Supersedes POL-SEC-01 v1.0, which previously allowed 10-character passwords and SMS OTP.
+
+3. WORKSTATION AUTO-LOCK & ENDPOINT SECURITY
+3.1 Unattended Workstations: All company laptops and workstations must automatically lock screens with password/biometric lock after a maximum of 5 minutes of inactivity.
+3.2 Full Disk Encryption: BitLocker (Windows) or FileVault (macOS) with AES-256 encryption is mandatory on all corporate endpoints.

@@ -1,0 +1,17 @@
+APEX GLOBAL SOLUTIONS
+POLICY DOCUMENT: POL-SEC-03
+TITLE: Incident Response and Mandatory Breach Notification Policy
+VERSION: 1.1 (SUPERSEDES VERSION 1.0)
+EFFECTIVE DATE: March 1, 2024
+CLASSIFICATION: Confidential - Security Operations Standard
+
+1. INCIDENT CLASSIFICATION
+Security incidents are triaged into Severity Levels:
+- Severity 1 (Critical): Active data exfiltration, ransomware, or compromise of production credential stores.
+- Severity 2 (High): Unauthorized lateral movement, compromised non-privileged account.
+- Severity 3 (Medium): Malware contained on isolated endpoint.
+
+2. MANDATORY DATA BREACH REPORTING SLA
+2.1 Statutory Breach Notification: In the event of a confirmed breach involving Personal Identifiable Information (PII) or customer credential compromise, the Security Operations Lead and CISO must formally notify relevant regulatory authorities and affected customers within 24 hours of confirmation.
+2.2 Version Update Note: Supersedes POL-SEC-03 v1.0, which previously allowed a 72-hour notification window.
+2.3 Internal Escalation: Any employee discovering suspected compromise must page the SecOps on-call team via the `#security-emergency` channel within 15 minutes.

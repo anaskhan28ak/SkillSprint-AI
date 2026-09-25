@@ -1,0 +1,17 @@
+APEX GLOBAL SOLUTIONS
+SOP DOCUMENT: SOP-FIN-01
+TITLE: Employee Travel & Expense Reimbursement SOP
+VERSION: 1.0
+EFFECTIVE DATE: January 1, 2024
+CLASSIFICATION: Internal - Finance & All Employees
+
+1. EXPENSE REIMBURSEMENT POLICY
+Apex reimburses employees for reasonable, necessary business travel and operational expenditures incurred during approved company activities.
+
+2. MEAL PER DIEM & CAPS
+2.1 Daily Meal Cap: Business travel meal expenditures are capped at a strict maximum of $75 USD per diem. Alcohol is non-reimbursable unless part of an authorized client entertainment dinner.
+2.2 Receipt Requirements: Itemized receipts are mandatory for all individual expense claims exceeding $25 USD.
+
+3. MANAGEMENT APPROVAL THRESHOLDS
+3.1 Standard Claims: Expense reports under $1,000 USD require direct Manager approval.
+3.2 High-Value Claims: Any single expense line item or cumulative monthly report exceeding $1,000 USD requires formal secondary approval from the Department Vice President and Finance Controller.

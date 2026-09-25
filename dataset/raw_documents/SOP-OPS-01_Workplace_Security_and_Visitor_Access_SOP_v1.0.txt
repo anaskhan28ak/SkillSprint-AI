@@ -1,0 +1,13 @@
+APEX GLOBAL SOLUTIONS
+SOP DOCUMENT: SOP-OPS-01
+TITLE: Physical Workplace Security & Visitor Access SOP
+VERSION: 1.0
+EFFECTIVE DATE: January 1, 2024
+CLASSIFICATION: Internal - Workplace Operations & Facilities
+
+1. FACILITY ACCESS CONTROL
+1.1 All employees must display active RFID corporate access badges at all times within facility premises. Tailgating is strictly prohibited.
+
+2. VISITOR MANAGEMENT PROTOCOL
+2.1 Visitor Registration: All external visitors, contractors, and guests must present government-issued photo ID, sign the digital Visitor NDA, and receive a color-coded Visitor Badge at the reception desk.
+2.2 Mandatory Escort: Visitors must remain accompanied by an authorized Apex employee escort at all times while present in non-public office zones and engineering floors.

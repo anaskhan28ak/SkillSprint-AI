@@ -1,0 +1,13 @@
+APEX GLOBAL SOLUTIONS
+SOP DOCUMENT: SOP-QA-01
+TITLE: Quality Assurance Gating & Release Signoff SOP
+VERSION: 1.0
+EFFECTIVE DATE: January 1, 2024
+CLASSIFICATION: Internal - QA & Software Engineering
+
+1. CODE COVERAGE GATES
+1.1 Minimum Test Coverage: Automated unit, integration, and API test coverage must achieve a minimum threshold of 80.0% code line coverage across all newly committed code before a release candidate can be certified.
+
+2. RELEASE BLOCKER CRITERIA
+2.1 Zero Severity 1 Defect Tolerance: A production release build will be unconditionally blocked from deployment if there is even a single (1) open, unmitigated Severity 1 (Critical) bug or data corruption issue.
+2.2 QA Lead Signoff: Formal written sign-off from the QA Lead in Jira Release Hub is mandatory prior to production traffic cutover.

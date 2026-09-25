@@ -1,0 +1,13 @@
+APEX GLOBAL SOLUTIONS
+KNOWLEDGE BASE FAQ: FAQ-HR-01
+TITLE: Employee Leave & Benefits Portal FAQ
+VERSION: 1.0 (OUTDATED / INFORMAL GUIDE)
+DATE: August 15, 2022
+CLASSIFICATION: Internal - General Knowledge Base
+
+[CONTRADICTION & OBSOLESCENCE WARNING]
+Question: How many unused annual leave days can I roll over into next year?
+Answer: Employees can roll over up to 10 days of unused leave to the following calendar year.
+
+[LEGAL NOTE / CONFLICT PRECEDENCE RULE]
+Note: This FAQ document is an informal employee intranet summary. Per company governance standards, formal Policy Document POL-HR-03 v1.2 takes legal precedence. POL-HR-03 v1.2 strictly limits annual leave rollover to a maximum of 5 days.

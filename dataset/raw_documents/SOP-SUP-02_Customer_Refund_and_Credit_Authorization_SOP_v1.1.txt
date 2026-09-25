@@ -1,0 +1,16 @@
+APEX GLOBAL SOLUTIONS
+SOP DOCUMENT: SOP-SUP-02
+TITLE: Customer Billing Dispute & Refund Authorization SOP
+VERSION: 1.1
+EFFECTIVE DATE: February 15, 2024
+CLASSIFICATION: Internal - Customer Support & Billing
+
+1. PURPOSE
+Establishes clear financial authorization limits for customer billing adjustments, service credits, and invoice refunds.
+
+2. TIERED REFUND APPROVAL LIMITS
+2.1 Tier 1 (Support Representative / L1): Authorized to issue goodwill billing credits up to $100 USD per customer account per billing quarter.
+2.2 Tier 2 (Senior Support / L2 Specialist): Authorized to issue customer refunds or credits up to a maximum cap of $500 USD per ticket without prior management escalation.
+2.3 Tier 3 (Support Manager / Lead): Required for refund amounts exceeding $500 USD up to $2,500 USD.
+2.4 Tier 4 (VP / Finance Director): Required for refund amounts exceeding $2,500 USD.
+2.5 Precedence Note: This SOP governs customer dispute compensation and supersedes general company expense procedures (SOP-FIN-01) for external customer adjustments.

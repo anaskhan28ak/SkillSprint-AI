@@ -1,0 +1,16 @@
+APEX GLOBAL SOLUTIONS
+SOP DOCUMENT: SOP-SUP-01
+TITLE: Customer Support Ticket Escalation & Incident Matrix
+VERSION: 2.0 (SUPERSEDES VERSION 1.0)
+EFFECTIVE DATE: March 1, 2024
+CLASSIFICATION: Internal - Customer Support & Engineering
+
+1. SEVERITY DEFINITIONS & RESPONSE THRESHOLDS
+1.1 Severity 1 (Sev-1: Critical Platform Outage): Core platform down, payment processing failing, or multiple enterprise tenants unable to authenticate.
+1.2 Severity 2 (Sev-2: Major Degradation): Major feature unavailable with no immediate workaround.
+1.3 Severity 3 (Sev-3: Minor Issue / General Inquiry): Non-blocking bug or configuration question.
+
+2. MANDATORY ESCALATION SLA THRESHOLDS
+2.1 Sev-1 Escalation Window: Any unacknowledged Severity 1 customer ticket must be escalated to the On-Call Engineering Incident Commander within exactly 15 minutes of ticket creation.
+2.2 Automated Executive Paging: Breaching the 15-minute threshold automatically alerts the VP of Customer Experience and Director of Platform Engineering.
+2.3 Version Update Note: Supersedes SOP-SUP-01 v1.0, which previously allowed a 30-minute escalation threshold.

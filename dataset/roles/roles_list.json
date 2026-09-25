@@ -1,0 +1,82 @@
+[
+  {
+    "role_id": "ROLE-CSR-01",
+    "role_name": "Customer Support Executive",
+    "department": "Customer Experience",
+    "level": "L1/L2 Specialist",
+    "description": "Manages enterprise customer queries, handles billing adjustments, and escalates critical system outages per SLA matrix.",
+    "primary_work_mode": "Remote / Hybrid"
+  },
+  {
+    "role_id": "ROLE-DAT-02",
+    "role_name": "Data Analyst",
+    "department": "Business Intelligence & Analytics",
+    "level": "L2 Specialist",
+    "description": "Builds BI telemetry dashboards, performs data warehouse ETL transformations, and adheres to data privacy and anonymization standards.",
+    "primary_work_mode": "Remote / Hybrid"
+  },
+  {
+    "role_id": "ROLE-SWE-03",
+    "role_name": "Software Support Engineer",
+    "department": "Engineering Operations",
+    "level": "L2 Mid-Senior",
+    "description": "Diagnoses production software issues, writes patch bug fixes, executes PR peer reviews, and enforces Secure SDLC standards.",
+    "primary_work_mode": "Remote"
+  },
+  {
+    "role_id": "ROLE-FIN-04",
+    "role_name": "Finance Associate",
+    "department": "Corporate Finance & Accounting",
+    "level": "L2 Associate",
+    "description": "Audits corporate expense claims against per diem limits, coordinates RFP vendor bidding, and maintains invoice ledger accuracy.",
+    "primary_work_mode": "Hybrid"
+  },
+  {
+    "role_id": "ROLE-HRO-05",
+    "role_name": "HR Executive",
+    "department": "People & Culture",
+    "level": "L2 Executive",
+    "description": "Oversees new hire onboarding curricula, leave balances, performance review calibration, and employee offboarding logistics.",
+    "primary_work_mode": "Hybrid"
+  },
+  {
+    "role_id": "ROLE-OPS-06",
+    "role_name": "Workplace Operations Lead",
+    "department": "Workplace Operations & Facilities",
+    "level": "L3 Lead",
+    "description": "Oversees physical access security, visitor registration and badging, facility health and safety, and hardware asset recovery.",
+    "primary_work_mode": "On-site"
+  },
+  {
+    "role_id": "ROLE-QAE-07",
+    "role_name": "Quality Assurance Lead",
+    "department": "Quality Assurance",
+    "level": "L3 Lead",
+    "description": "Enforces 80% automated test coverage gates, manages regression testing cycles, and governs production release blockers.",
+    "primary_work_mode": "Remote"
+  },
+  {
+    "role_id": "ROLE-DVO-08",
+    "role_name": "DevOps Engineer",
+    "department": "Cloud Platform & Infrastructure",
+    "level": "L2/L3 Senior",
+    "description": "Manages Kubernetes infrastructure, Blue-Green zero-downtime deployment pipelines, and automated secret rotation via HashiCorp Vault.",
+    "primary_work_mode": "Remote"
+  },
+  {
+    "role_id": "ROLE-SEC-09",
+    "role_name": "Information Security Analyst",
+    "department": "Security & Compliance (SecOps)",
+    "level": "L3 Specialist",
+    "description": "Monitors SIEM telemetry, investigates security breach alerts within 24h SLA, audits IAM hardware MFA enforcement, and validates encryption standards.",
+    "primary_work_mode": "Remote / Hybrid"
+  },
+  {
+    "role_id": "ROLE-PRM-10",
+    "role_name": "Product Manager",
+    "department": "Product Management",
+    "level": "L3 Lead",
+    "description": "Defines product roadmaps, validates compliance requirements with stakeholders, prioritizes feature backlogs, and coordinates quarterly OKRs.",
+    "primary_work_mode": "Hybrid"
+  }
+]

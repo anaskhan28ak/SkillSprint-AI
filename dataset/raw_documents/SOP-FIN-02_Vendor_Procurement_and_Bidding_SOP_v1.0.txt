@@ -1,0 +1,14 @@
+APEX GLOBAL SOLUTIONS
+SOP DOCUMENT: SOP-FIN-02
+TITLE: Vendor Procurement, Bidding, and Contracting SOP
+VERSION: 1.0
+EFFECTIVE DATE: January 1, 2024
+CLASSIFICATION: Internal - Procurement & Department Leads
+
+1. PURPOSE
+Governs competitive procurement, vendor evaluation, and commercial contract commitments for software, hardware, and professional services.
+
+2. COMPETITIVE BIDDING MANDATES
+2.1 Purchase Thresholds: Any software subscription, SaaS tooling, infrastructure contract, or professional service engagement exceeding $25,000 USD in annual contract value (ACV) requires a formal Request for Proposal (RFP) process with a minimum of 3 independent, competitive vendor bids.
+2.2 Sole Source Justification: Sole-source contracts above $25,000 USD require written justification and sign-off by the Chief Financial Officer.
+2.3 Vendor Risk Assessment: All prospective technology vendors must pass a Security & Privacy Vendor Assessment before contract execution.

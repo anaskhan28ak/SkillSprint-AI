@@ -1,0 +1,17 @@
+APEX GLOBAL SOLUTIONS
+POLICY DOCUMENT: POL-SEC-02
+TITLE: Data Privacy, Protection, and Cryptographic Standards
+VERSION: 1.0
+EFFECTIVE DATE: January 1, 2024
+CLASSIFICATION: Confidential - Compliance & Technical Standard
+
+1. JURISDICTION & COMPLIANCE
+Apex complies with the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and SOC 2 Type II data privacy trust principles.
+
+2. CRYPTOGRAPHIC ENCRYPTION STANDARDS
+2.1 Data at Rest: All structured databases, relational stores, object storage (S3/GCS buckets), and persistent disks storing customer or PII data must be encrypted using AES-256 encryption.
+2.2 Data in Transit: All external and internal service-to-service communications must be encrypted using Transport Layer Security (TLS) version 1.3. TLS 1.0 and 1.1 are explicitly disabled.
+
+3. DATA SUBJECT RIGHTS & ERASURE SLA
+3.1 Right to Erasure / Deletion: When a verified customer data subject request (DSR) or "Right to be Forgotten" ticket is logged, all associated customer PII across production and staging databases must be irreversibly purged within a strict 30-day SLA window.
+3.2 Audit Log Retention: Audit and access logs must be retained in immutable append-only storage for a minimum duration of 365 days.

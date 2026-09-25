@@ -1,0 +1,24 @@
+APEX GLOBAL SOLUTIONS
+POLICY DOCUMENT: POL-HR-02
+TITLE: Remote and Hybrid Work Policy
+VERSION: 2.0 (SUPERSEDES VERSION 1.0)
+EFFECTIVE DATE: March 15, 2024
+CLASSIFICATION: Internal - Mandatory for Remote & Hybrid Personnel
+
+1. PURPOSE & SCOPE
+Apex Global Solutions embraces a modern, flexible distributed workforce model. This policy defines the operational guidelines, equipment allowances, and core collaboration expectations for hybrid and fully remote team members.
+
+2. CORE OPERATING HOURS & AVAILABILITY
+2.1 Collaboration Window: All remote personnel across regional timezones must maintain active presence on official communication channels (Slack, Microsoft Teams, and email) during the mandatory Core Operating Hours of 10:00 AM to 4:00 PM PKT (Pakistan Standard Time) / UTC+5.
+2.2 Scheduled Synchronous Meetings: Team standups, cross-functional sprints, and customer escalation calls are scheduled within core operating hours to ensure rapid coordination.
+2.3 Version Update Note: This version supersedes Policy v1.0, which previously defined core availability hours as 9:00 AM to 6:00 PM PKT.
+
+3. HOME WORKSTATION & ERGONOMIC ALLOWANCE
+3.1 Stipend Allocation: Active full-time remote employees are eligible for a one-time home-office setup stipend of $300 USD upon onboarding.
+3.2 Reimbursable Items: The stipend may be applied toward ergonomic chairs, external monitors, keyboards, desk lighting, and surge protectors. Itemized purchase receipts must be submitted via the Expensify portal within 60 days of hire.
+3.3 Version Update Note: This version supersedes Policy v1.0, which provided an allowance of $200 USD.
+
+4. NETWORK SECURITY & WORKSPACE ENVIRONMENT
+4.1 Remote employees must connect to corporate infrastructure exclusively using company-managed laptops configured with enterprise VPN and endpoint protection.
+4.2 Use of public, unencrypted Wi-Fi networks without an active VPN tunnel is strictly forbidden.
+4.3 Screen privacy filters must be used when working in shared co-working spaces or public environments.

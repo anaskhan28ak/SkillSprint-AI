@@ -1,0 +1,16 @@
+APEX GLOBAL SOLUTIONS
+SOP DOCUMENT: SOP-DEV-01
+TITLE: Secure Software Development Lifecycle (SSDLC) SOP
+VERSION: 2.0 (SUPERSEDES VERSION 1.0)
+EFFECTIVE DATE: April 1, 2024
+CLASSIFICATION: Confidential - Engineering & Security
+
+1. SECURE CODE REVIEW PROTOCOL
+1.1 Pull Request Peer Reviews: All pull requests targeting protected branches (`main`, `master`, `release/*`) must receive mandatory code reviews and approvals from at least 2 independent peer engineers. Single-engineer approvals are blocked by repository rule sets.
+1.2 Version Update Note: Supersedes SOP-DEV-01 v1.0, which previously required only 1 peer reviewer.
+
+2. AUTOMATED SECURITY GATES & SAST/DAST
+2.1 Static Analysis (SAST): SonarQube scans must pass with zero Blocker or Critical vulnerabilities.
+2.2 Software Composition Analysis (SCA): Dependabot / Snyk scans must report zero known High/Critical CVEs in open-source dependencies.
+2.3 Dynamic Analysis (DAST): Automated OWASP ZAP API scans must execute in staging prior to production deployment.
+2.4 Client-Side Input Sanitization: All user-supplied DOM input must be sanitized via DOMPurify to eliminate Cross-Site Scripting (XSS).
